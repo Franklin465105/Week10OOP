@@ -18,7 +18,7 @@ public class Customer extends Person
         this.mailingList = mailingList;
     }
 
-    public int  getCustomerNumber() { return customerNumber; }
+    public int getCustomerNumber() { return customerNumber; }
 
     public void setCustomerNumber(int customerNumber) { this.customerNumber = customerNumber; }
 

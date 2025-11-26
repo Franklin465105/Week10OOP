@@ -25,9 +25,6 @@ public class CustomerTest {
         System.out.println(customer);
     }
 
-
-
-
 }
 
 
