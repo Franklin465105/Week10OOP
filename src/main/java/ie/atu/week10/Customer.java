@@ -11,7 +11,7 @@ public class Customer extends Person
         this.mailingList = false;
     }
 
-    public Customer (String name, String address, String phoneNumber)
+    public Customer (String name, String address, String phoneNumber, int customerNumber, boolean mailingList)
     {
         super(name, address, phoneNumber);
         this.customerNumber = customerNumber;
@@ -29,11 +29,9 @@ public class Customer extends Person
     @Override
     public String toString()
     {
-        return "Customer{" +
-                "person=" + super.toString() +
-                ", customerNumber=" + customerNumber +
-                ", mailingList=" + mailingList +
-                '}';
+        return super.toString() +
+                "\ncustomerNumber=" + customerNumber +
+                "\nmailingList=" + mailingList;
     }
 
 }
